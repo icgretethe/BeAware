@@ -1,0 +1,98 @@
+{
+    "Warnings": {
+        "Talk":[
+            "A person is talking about:\n",
+            "· Being a burden to others\n· Feeling trapped\n· Experiencing unbearable pain\n· Having no reason to live\n· Killing themselves\n"
+        ],
+        "Behavior": [
+            "Specific things to look out for:\n",
+            "· Increased use of alcohol or drugs\n· Looking for a way to kill themselves, such as searching online for materials or means\n· Acting recklessly\n· Withdrawing from activities\n· Isolating from family and friends\n· Sleeping too much or too little\n· Visiting or calling people to say goodbye\n· Giving away prized possessions· Aggression\n"
+        ],
+        "Mood": [
+            "People who are considering suicide often display one or more of the following moods:\n",
+            "· Depression\n· Loss of interest\n· Rage\n· Irritability\n· Humiliation\n· Anxiety\n"
+        ]
+    },
+
+    "Contacts": [
+        {
+            "text": "911 Emergency Number",
+            "phone": "911"
+        },
+
+        {
+            "text":"Call for Help Sexual Assault Victims Care Unit",
+            "phone":"618-397-0975"
+        },
+
+        {
+            "text":"National Suicide Prevention Lifeline",
+            "phone":"1-800-273-TALK"
+        },
+
+        {
+            "text":"Sexual Assault Hotline",
+            "phone":"1-800-656-HOPE"
+        },
+
+        {
+            "text":"Domestic Violence Hotline",
+            "phone":"1-800-799-SAFE"
+        },
+
+        {
+            "text":"Trevor Project Lifeline",
+            "phone":"1-866-488-7386"
+        },
+
+        {
+            "text":"Trans Lifeline",
+            "phone":"1-877-565-8860"
+        },
+
+        {
+            "text":"LGBTQ Partner Abuse & Sexual Assault Helpline",
+            "phone":"1-866-356-6998"
+        },
+
+        {
+            "text": "Crisis Text Line: Text START to 741741",
+            "phone":""
+        },
+
+        {
+            "text":"Provident Counseling",
+            "phone":"314-647-4357"
+        },
+
+        {
+            "text":"SIUE Police Department",
+            "phone":"618-650-3324"
+        },
+
+        {
+            "text":"SIUE Counseling Services",
+            "phone":"618-650-2842"
+        },
+
+        {
+            "text":"SIUE Confidential Advisor for Sexual Assault Survivors – Lindsay Serrano",
+            "phone":"618-650-5664"
+        },
+
+        {
+            "text":"Chestnut Health",
+            "phone":"618-877-0316"
+        },
+
+        {
+            "text":"Centerstone",
+            "phone":"618-462-4331"
+        },
+
+        {
+            "text":"Gateway Regional Medical Center",
+            "phone":"618-798-3888"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+    controllerName="sps.controller.mainPage" xmlns:html="http://www.w3.org/1999/xhtml">
+    <Page title="We're Here to Help" enableScrolling="false" showHeader="false">
+    <content>
+        <!-- organize all information inside of a VBox -->
+        <VBox class="buttonBox">
+            <Text class="menuHeader"/>
+            <Button text="Warning Signs of Suicide" press="toWarnPage"/>
+            <Button text="Important Contacts" press="toInfoPage"/>
+            <Button text="Cougar Care Report" press="toCareReport"/>
+            <Button text="Get Educated" press="toKognito"/>
+            <Button text="Stay Informed" press="toStayInformedPage"/>
+            <Button text="Ask the Question" press="toAskQuestionPage"/>
+            <Text id="foot" text="National Suicide Prevention Lifeline (800.273.8255)" />
+        </VBox>
+    </content>
+    </Page>
+</core:View>

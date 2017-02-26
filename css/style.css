@@ -1,0 +1,418 @@
+/*
+ * Main Page
+ */
+
+html {
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: auto;
+  height: 100%;
+  overflow: auto !important;
+}
+
+#main .buttonBox {
+  margin-top: 10px;
+  width: 60%;
+  padding: 10px;
+}
+
+#main .menuHeader {
+  display: flex;
+  font-size: 28px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+#main--foot {
+  position: absolute;
+  margin-top: 35px;
+  margin-left: 10px;
+  padding: 5px;
+  border: 1px;
+  border-radius: 4px;
+  background-color: #2b2b2b;
+  text-align: center;
+  color: #f7f7f7;
+}
+
+.sapMPageHeader::before {
+  content: none !important;
+}
+
+/*
+ * Warning Signs Page
+ */
+
+html {
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: auto;
+  height: 100%;
+  overflow: auto !important;
+}
+
+#warn .sapMText {
+  font-family: 'Roboto', arial !important;
+}
+
+#warn .warnPageHeader {
+  margin: auto;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 25px;
+}
+
+#warn .warnBox {
+  position: absolute;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+/*
+ * Ask Question Page
+ */
+
+html {
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: auto;
+  height: 100%;
+  overflow: auto !important;
+}
+
+#askQuestion .sapMFlexBox {
+  min-height: 100px !important;
+  margin: auto;
+  margin-bottom: 0;
+  padding: 25px;
+  margin-top: 20%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (min-width: 750px) {
+  #askQuestion .sapMFlexBox {
+    margin-top: 15%;
+  }
+}
+
+#askQuestion .sapMText {
+  font-family: 'Roboto', arial !important;
+}
+
+#askQuestion .questBox {
+  position: absolute;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+.sapMPageHeader::before {
+  border-top: 0.25rem solid #2dc0d7 !important;
+}
+
+.sapMGlobalBackgroundColor,
+.sapUiGlobalBackgroundColor {
+  background-color: none !important;
+  background-image: linear-gradient(#4c3c92, #4c368f) !important;
+  background-repeat: no-repeat !important;
+}
+
+.sapUiGlobalBackgroundImage {
+  background-image: url("../resources/images/icareBackground.svg") !important;
+  background-size: 100% !important;
+  background-repeat: no-repeat !important;
+}
+
+.sapMBtn:focus .sapMBtnFocusDiv {
+  border: none !important;
+}
+
+.sapMBtn {
+  padding: 0 !important;
+  width: 100%;
+}
+
+.buttonBox {
+  height: 100% !important;
+  width: 100% !important;
+  padding: 0 !important;
+}
+
+.sapMBtnActive,
+.sapMBtnIcon,
+.sapMBtnInner:hover,
+.sapMBtnInner {
+  background-color: #f7f7f7 !important;
+  border-color: #bfbfbf !important;
+  color: #333333 !important;
+  background: linear-gradient(top, #f7f7f7 0, #f2f2f2 100%);
+  text-shadow: 0 1px 0 #ffffff;
+}
+
+.sapMBtnActive {
+  box-shadow: none;
+}
+
+.sapMBtnInner {
+  transition: box-shadow .1s linear;
+  border: 0 !important;
+  border-radius: 2px !important;
+  outline: none !important;
+  text-align: left !important;
+  box-shadow: 2px 1px 2px gray;
+}
+
+.sapMBtnInner:active {
+  box-shadow: none;
+}
+
+.sapMBtnContent {
+  font-family: 'Roboto', sans-serif;
+}
+
+#main .sapMFlexItem {
+  margin: 3px 30px 3px 8%;
+}
+
+@media only screen and (min-width: 750px) {
+  #main .sapMFlexItem {
+    margin-right: 45%;
+    margin-left: 25%;
+  }
+}
+
+.sapMFlexItem {
+  margin: 3px 40px 3px 0;
+}
+
+@media only screen and (min-width: 750px) {
+  .sapMFlexItem {
+    margin-right: 45%;
+    margin-left: 25%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #main .sapMFlexItem:first-child {
+    color: #2e2e2e;
+    height: 27% !important;
+    display: -webkit-flex !important;
+    display: flex !important;
+    -webkit-align-items: center !important;
+    align-items: center !important;
+    -webkit-justify-content: center !important;
+    justify-content: center !important;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  #main .sapMFlexItem:first-child {
+    height: 35% !important;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #tree .sapMFlexItem {
+    height: auto;
+    display: -webkit-flex !important;
+    display: flex !important;
+    -webkit-align-items: center !important;
+    align-items: center !important;
+    -webkit-justify-content: center !important;
+    justify-content: center !important;
+    text-align: center;
+  }
+}
+
+.sapMBtnBack {
+  display: flex;
+  align-items: center;
+}
+
+#tree--homeButton-inner {
+  width: 200px;
+}
+
+@media only screen and (max-width: 750px) {
+  #tree--homeButton-inner {
+    text-align: center !important;
+    margin: auto;
+  }
+}
+
+.sapMText {
+  display: -webkit-flex !important;
+  display: flex !important;
+}
+
+/*
+ * Info Page 
+ */
+
+#info .sapMText {
+  font-family: 'Roboto', arial !important;
+}
+
+#info .sapMFlexItem {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  font-family: 'Roboto', arial;
+}
+
+@media only screen and (min-width: 750px) {
+  #info .sapMFlexItem {
+    margin-right: 15% !important;
+    margin-left: 23% !important;
+  }
+}
+
+#info .infoPageHeader {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  padding: 25px;
+}
+
+#info .importantInfo {
+  font-size: 20px;
+  padding-bottom: 7.5%;
+}
+
+#info .infoBox {
+  text-align: center;
+  margin: auto;
+  margin-top: 15%;
+  padding: 5%;
+  /*  
+    border: 3px solid #73AD21; 
+*/
+  border-radius: 15%;
+  border: 6 black;
+}
+
+#stayInformed .sapMFlexBox {
+  min-height: 100px !important;
+  margin: auto;
+  margin-bottom: 0;
+  padding: 25px;
+  margin-top: 20%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (min-width: 750px) {
+  #stayInformed .sapMFlexBox {
+    margin-top: 15%;
+  }
+}
+
+#stayInformed .sapMText {
+  font-family: 'Roboto', arial !important;
+}
+
+#stayInformed .sapMFlexItem {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Roboto', arial;
+}
+
+@media only screen and (min-width: 750px) {
+  #stayInformed .sapMFlexItem {
+    margin-right: 15% !important;
+    margin-left: 23% !important;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #stayInformed .sapMFlexItem {
+    background: white;
+  }
+}
+
+#stayInformed .infoPageHeader {
+  font-size: 30px;
+  text: #778899;
+  padding: 25px;
+}
+
+#stayInformed .importantInfo {
+  font-size: 20px;
+  padding-bottom: 7.5%;
+}
+
+#stayInformed .sapMFlexBox {
+  text-align: center;
+  margin: auto;
+  margin-top: 15%;
+  padding: 5%;
+}
+
+#stayInformed .sapMText {
+  margin-left: 25px;
+}
+
+#stayInformed .sapMFlexItem .sapMBtnBase {
+  width: 25%;
+  right: 35%;
+}
+
+@media only screen and (max-width: 750px) {
+  #stayInformed .sapMFlexItem .sapMBtnBase {
+    width: 55%;
+    right: 0;
+  }
+}
+
+#stayInformed .sapMFlexItem:nth-child(2) {
+  margin-top: 30px;
+}
+
+#stayInformed .sapMFlexItem:nth-child(1) {
+  background: none;
+}
+
+#stayInformed #__text3,
+#__text4 {
+  color: #333;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+#stayInformed #__text2 {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 750px) {
+  #stayInformed #__text2 {
+    margin-left: 25%;
+  }
+}

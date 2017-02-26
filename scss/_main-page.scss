@@ -1,0 +1,42 @@
+/*
+ * Main Page
+ */
+html {
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+   margin: auto;
+   height: 100%;
+   overflow: auto !important;
+}
+#main .buttonBox {
+    margin-top: 10px;
+    width: 60%;
+    padding: 10px;
+//    border: 3px solid #73AD21;
+}
+
+#main .menuHeader {
+    display: flex;
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main--foot {
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px;
+    border-radius: 4px;
+    background-color: #2b2b2b;
+    text-align: center;
+    color: #f7f7f7;
+}
+
+.sapMPageHeader::before {
+  content: none !important;
+}

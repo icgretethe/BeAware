@@ -1,0 +1,80 @@
+// http://www.w3schools.com/colors/colors_picker.asp <------ WONDERFUL TOOL
+
+//  *   *   *   *   *   *   * //
+//                            //
+//      GLOBAL VARIABLES      //
+//                            //
+//  *   *   *   *   *   *   * //
+
+
+// =============== //
+//  Color Theme
+//      Variables
+// =============== //
+
+$purple-hue:        274;
+$purple-saturation: 53%;
+
+$blue-hue:        188;
+$blue-saturation: 68%;
+
+$red-hue:         358;
+$red-saturation:  85%;
+
+
+// Main logos
+
+$logo-purple: hsl($purple-hue, $purple-saturation, 37%);
+$logo-blue:   hsl($blue-hue, $blue-saturation, 51%);
+$logo-red:    hsl($red-hue, $red-saturation, 52%);
+
+
+// Background Values (80% brightness from original 50%)
+
+$light-purple: hsl($purple-hue, $purple-saturation, 80%);
+$light-blue:   hsl($blue-hue, $blue-saturation, 80%);
+
+$purple-gradient-1: #4c3c92;
+$purple-gradient-2: #4c368f;
+
+// This is the lower bound purple color on the background image
+
+$lower-bound-purple: #4e3890;
+
+
+// Button colors
+
+// Default values
+$button-border: #bfbfbf;
+$button-press: #f7f7f7;
+$button-text-color: #333333;
+
+// =============== //
+//  Screen Res
+//      Variables
+// =============== //
+
+
+// Reservered for smartphone-like devices (anything under = smartphone)
+
+$small-size: 750px;
+
+
+// Reserved for tablet-like devices (anything under = tablet)
+
+$max-tablet-width: 1200px; // Anything less than this size will
+
+
+// We need the font to be white for this one item
+$mainPageInfo: #ffffff;
+
+// =============== //
+//  Font Fam
+//    Variables
+// =============== //
+
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Anton', sans-serif;
+// font-family: 'Varela Round', sans-serif;
+// font-family: 'Francois One', sans-serif;
+// font-family: 'Play', sans-serif;

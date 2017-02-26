@@ -1,0 +1,40 @@
+/*
+ * Warning Signs Page
+ */ 
+@import 'globals';
+
+html {
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+   margin: auto;
+   height: 100%;
+   overflow: auto !important;
+}
+
+#warn .sapMText {
+  font-family: 'Roboto', arial !important;
+}
+
+#warn .warnPageHeader {
+  margin: auto;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 25px;
+}
+
+#warn .warnBox {
+    position: absolute;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+  	color: #000000;
+  	background-color: #ffffff;
+  	border: 1px solid #000000;
+   	border-radius: 4px;
+}
+
+

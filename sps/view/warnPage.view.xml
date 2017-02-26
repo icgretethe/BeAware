@@ -1,0 +1,19 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+    controllerName="sps.controller.warnPage" xmlns:html="http://www.w3.org/1999/xhtml">
+    <Page title="iCare SIUe" showHeader="false" showSubHeader="false">
+    <content>
+        <Text class="warnPageHeader" text="Warning Signs"/>
+        <VBox class="warnBox">
+            <!-- Talk -->
+            <Text id="talkHeader"/>
+            <Text id="talkList"/>
+            <!-- Behavior -->
+            <Text id="behaviorHeader"/>
+            <Text id="behaviorList"/>
+            <!-- Mood -->
+            <Text id="moodHeader"/>
+            <Text id="moodList"/>
+        </VBox>
+    </content>
+    </Page>
+</core:View>
