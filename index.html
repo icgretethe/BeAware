@@ -38,6 +38,10 @@
             }
             // initialize app
             var app = new sap.m.App();
+
+            // add icon to app
+            app.setHomeIcon({ 'icon':'icare-logo.ico' });
+
             // define app pages
             var mainPage = sap.ui.view({id:"main", viewName:"sps.view.mainPage", type:sap.ui.core.mvc.ViewType.XML});
             var warnPage = sap.ui.view({id:"warn", viewName:"sps.view.warnPage", type:sap.ui.core.mvc.ViewType.XML});
@@ -62,7 +66,6 @@
                 backData.viewName = page.sViewName;
                 history.pushState(backData, "NA");
               }
-
         </script>
         <noscript>Please enable Javascript, in order to load this page.</noscript>
     </head>
