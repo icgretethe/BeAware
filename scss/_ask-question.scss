@@ -14,11 +14,20 @@ body {
    overflow: auto !important;
 }
 
+header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
 #askQuestion .sapMFlexBox {
     min-height: 100px !important;
     margin: auto;
-    margin-bottom: 0;
-    padding: 25px;
+    padding: 10px;
     margin-top: 20%;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
@@ -34,12 +43,12 @@ body {
 
 
 #askQuestion .questBox {
-    position: absolute;
-    text-align: center;
     margin-left: 25%;
     margin-right: 25%;
+    text-align: center;
   	color: #000000;
   	background-color: #ffffff;
   	border: 1px solid #000000;
    	border-radius: 4px;
 }
+

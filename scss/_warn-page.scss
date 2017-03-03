@@ -14,20 +14,24 @@ body {
    overflow: auto !important;
 }
 
+header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
 #warn .sapMText {
   font-family: 'Roboto', arial !important;
 }
 
-#warn .warnPageHeader {
-  margin: auto;
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
-  padding-top: 25px;
-}
-
 #warn .warnBox {
+    margin-top: 20%;
     position: absolute;
+    padding: 10px;
     text-align: center;
     margin-left: 25%;
     margin-right: 25%;

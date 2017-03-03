@@ -3,6 +3,16 @@
  */ 
 @import 'globals';
 
+header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
 #info .sapMText {
   font-family: 'Roboto', arial !important;
 }

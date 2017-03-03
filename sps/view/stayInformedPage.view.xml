@@ -1,21 +1,17 @@
 <core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
     controllerName="sps.controller.stayInformedPage" xmlns:html="http://www.w3.org/1999/xhtml">
-    <Page title="iCare SIUe" showSubHeader="false" showHeader="false">
+    <Page title="Helpful Links" showHeader="false">
 	<content>
-        <!-- organize all text into a VBox -->
-        <Text text="Helpful Links"/>
+        <html:header>Helpful Links</html:header>
         <VBox class="linksBox">
             <Button text="Sucide Prevention Resource Center" press="toSprcPage"/>
 			<Button text="National Suicide Prevention Hotline" press="toNsphPage"/>
             <Button text="College of Psychiatric and Neurologic Pharmacists" press="toCpnpPage"/>
             <Button text="MISSA" press="toMissaPage"/>
             <Button text="Active Minds" press="toAmPage"/>
-
-            <HBox id="socMediaBox">
-                <Button text= "HashTag #ICARESIUE"></Button>
-                <Button text= "Twitter: @ICARESIUE_"/>
-                <Button text= "Facebook: facebook.com/ICARESIUE"/>
-            </HBox>
+            <Button text= "HashTag #ICARESIUE"></Button>
+            <Button text= "Twitter: @ICARESIUE_"/>
+            <Button text= "Facebook: facebook.com/ICARESIUE"/>
         </VBox>
     </content>
     </Page>

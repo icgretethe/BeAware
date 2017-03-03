@@ -1,5 +1,15 @@
 @import 'globals';
 
+header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
 #stayInformed .sapMFlexBox {
     min-height: 100px !important;
     margin: auto;
@@ -28,7 +38,6 @@
     margin-left: 23% !important;
   }
   @media only screen and (max-width: $small-size) {
-      background: white;
   }
   font-family: 'Roboto', arial;
 }
@@ -65,14 +74,6 @@
     width: 55%;
     right: 0;
   }
-}
-
-#stayInformed .sapMFlexItem:nth-child(2) {
-  margin-top: 30px;
-}
-
-#stayInformed .sapMFlexItem:nth-child(1) {
-  background: none;
 }
 
 #stayInformed #__text3, #__text4 {

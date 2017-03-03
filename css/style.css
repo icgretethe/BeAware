@@ -59,20 +59,24 @@ body {
   overflow: auto !important;
 }
 
+header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
 #warn .sapMText {
   font-family: 'Roboto', arial !important;
 }
 
-#warn .warnPageHeader {
-  margin: auto;
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
-  padding-top: 25px;
-}
-
 #warn .warnBox {
+  margin-top: 20%;
   position: absolute;
+  padding: 10px;
   text-align: center;
   margin-left: 25%;
   margin-right: 25%;
@@ -98,11 +102,20 @@ body {
   overflow: auto !important;
 }
 
+header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
 #askQuestion .sapMFlexBox {
   min-height: 100px !important;
   margin: auto;
-  margin-bottom: 0;
-  padding: 25px;
+  padding: 10px;
   margin-top: 20%;
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
@@ -120,10 +133,9 @@ body {
 }
 
 #askQuestion .questBox {
-  position: absolute;
-  text-align: center;
   margin-left: 25%;
   margin-right: 25%;
+  text-align: center;
   color: #000000;
   background-color: #ffffff;
   border: 1px solid #000000;
@@ -274,6 +286,16 @@ body {
  * Info Page 
  */
 
+header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
 #info .sapMText {
   font-family: 'Roboto', arial !important;
 }
@@ -315,6 +337,16 @@ body {
   border: 6 black;
 }
 
+header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
 #stayInformed .sapMFlexBox {
   min-height: 100px !important;
   margin: auto;
@@ -351,12 +383,6 @@ body {
   }
 }
 
-@media only screen and (max-width: 750px) {
-  #stayInformed .sapMFlexItem {
-    background: white;
-  }
-}
-
 #stayInformed .infoPageHeader {
   font-size: 30px;
   text: #778899;
@@ -389,14 +415,6 @@ body {
     width: 55%;
     right: 0;
   }
-}
-
-#stayInformed .sapMFlexItem:nth-child(2) {
-  margin-top: 30px;
-}
-
-#stayInformed .sapMFlexItem:nth-child(1) {
-  background: none;
 }
 
 #stayInformed #__text3,

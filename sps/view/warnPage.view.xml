@@ -1,8 +1,8 @@
 <core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
     controllerName="sps.controller.warnPage" xmlns:html="http://www.w3.org/1999/xhtml">
-    <Page title="iCare SIUe" showHeader="false" showSubHeader="false">
+    <Page title="Warning Signs" showHeader="false">
     <content>
-        <Text class="warnPageHeader" text="Warning Signs"/>
+        <html:header>Warning Signs</html:header>
         <VBox class="warnBox">
             <!-- Talk -->
             <Text id="talkHeader"/>

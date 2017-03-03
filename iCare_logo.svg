@@ -1,6 +1,55 @@
-<svg id="ribbon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 219.29 143.19">
-  <defs>
-    <style>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="ribbon"
+   viewBox="0 0 144 144"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="iCare_logo.svg"
+   width="144"
+   height="144">
+  <metadata
+     id="metadata35">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>suicide prevention logo_FINAL</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1360"
+     inkscape:window-height="714"
+     id="namedview33"
+     showgrid="false"
+     inkscape:zoom="1.1810844"
+     inkscape:cx="109.645"
+     inkscape:cy="34.649377"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="ribbon" />
+  <defs
+     id="defs3">
+    <style
+       id="style5">
       .cls-1 {
         fill: #231f20;
       }
@@ -30,12 +79,75 @@
       }
     </style>
   </defs>
-  <title>suicide prevention logo_FINAL</title>
-  <path class="cls-1" d="M191.67,439.93s-9.28,7.16-9.34,10.5c-0.06,3.17,6.83,19,17.13,22.88a1.8,1.8,0,0,1,.43.15c0.45,0.08.89,0.21,1.35,0.32a2.13,2.13,0,0,1,.41.06,16.47,16.47,0,0,0,10.66-5.79S191.24,457.73,191.67,439.93Z" transform="translate(-182.24 -331.06)"/>
-  <polygon class="cls-2" points="51.95 84.09 67.07 44.06 92.71 38.23 73.72 83.89 51.95 84.09"/>
-  <path class="cls-2" d="M225.13,440c-4.67,13.76-9.48,21.94-13.76,26.76-5.09,5.73-9.41,6.72-11.81,6.7a1.87,1.87,0,0,1,.32.11c0.39,0.06.78,0.15,1.17,0.24,33.12,4.92,44.52-33.25,44.52-33.25Z" transform="translate(-182.24 -331.06)"/>
-  <path class="cls-3" d="M221.09,418.3c-13.5,1.65-28.7,1.83-38.85,31.92h0c2.39-4.8,11-13.92,41.73-13.3,41.57,0.84,72.64,1.15,72.64,1.15L310,416.85S235,416.6,221.09,418.3Z" transform="translate(-182.24 -331.06)"/>
-  <text x="-182.24" y="-331.06"/>  <text class="cls-4" transform="translate(61.78 104.15)">S<tspan x="13.49" y="0">T</tspan><tspan x="27.34" y="0">OP </tspan><tspan class="cls-5" x="65.06" y="0">SUICIDE</tspan></text>
-  <circle class="cls-2" cx="84.45" cy="23.16" r="10.26"/>
-  <text class="cls-6" transform="translate(94.71 78.24)">Care</text>
-  <text x="-182.24" y="-331.06"/></svg>
+  <title
+     id="title7">suicide prevention logo_FINAL</title>
+  <text
+     x="-182.24001"
+     y="-330.25"
+     id="text17" />
+  <g
+     id="g4163"
+     transform="matrix(0.61428586,0,0,1.04026,4,-8.9525558)">
+    <path
+       id="path9"
+       transform="translate(-182.24,-331.06)"
+       d="m 191.67,439.93 c 0,0 -9.28,7.16 -9.34,10.5 -0.06,3.17 6.83,19 17.13,22.88 a 1.8,1.8 0 0 1 0.43,0.15 c 0.45,0.08 0.89,0.21 1.35,0.32 a 2.13,2.13 0 0 1 0.41,0.06 16.47,16.47 0 0 0 10.66,-5.79 c 0,0 -21.07,-10.32 -20.64,-28.12 z"
+       class="cls-1"
+       inkscape:connector-curvature="0"
+       style="fill:#231f20" />
+    <polygon
+       id="polygon11"
+       points="51.95,84.09 67.07,44.06 92.71,38.23 73.72,83.89 51.95,84.09 "
+       class="cls-2"
+       style="fill:#662d91" />
+    <path
+       id="path13"
+       transform="translate(-182.24,-331.06)"
+       d="m 225.13,440 c -4.67,13.76 -9.48,21.94 -13.76,26.76 -5.09,5.73 -9.41,6.72 -11.81,6.7 a 1.87,1.87 0 0 1 0.32,0.11 c 0.39,0.06 0.78,0.15 1.17,0.24 33.12,4.92 44.52,-33.25 44.52,-33.25 z"
+       class="cls-2"
+       inkscape:connector-curvature="0"
+       style="fill:#662d91" />
+    <path
+       id="path15"
+       transform="translate(-182.24,-331.06)"
+       d="m 221.09,418.3 c -13.5,1.65 -28.7,1.83 -38.85,31.92 l 0,0 c 2.39,-4.8 11,-13.92 41.73,-13.3 41.57,0.84 72.64,1.15 72.64,1.15 L 310,416.85 c 0,0 -75,-0.25 -88.91,1.45 z"
+       class="cls-3"
+       inkscape:connector-curvature="0"
+       style="fill:#2ec1d7" />
+    <text
+       id="text19"
+       transform="translate(61.78,104.15)"
+       class="cls-4"
+       style="font-weight:700;font-size:21.37000084px;font-family:'Stencil Std';fill:#f1f2f2">S<tspan
+   id="tspan21"
+   y="0"
+   x="13.49">T</tspan>
+<tspan
+   id="tspan23"
+   y="0"
+   x="27.34">OP</tspan>
+<tspan
+   id="tspan25"
+   y="0"
+   x="65.059998"
+   class="cls-5"
+   style="fill:#ed1c24">SUICIDE</tspan>
+</text>
+    <circle
+       id="circle27"
+       r="10.26"
+       cy="23.16"
+       cx="84.449997"
+       class="cls-2"
+       style="fill:#662d91" />
+    <text
+       id="text29"
+       transform="translate(94.71,78.24)"
+       class="cls-6"
+       style="font-size:50px;font-family:Stencil;fill:#662d91">Care</text>
+  </g>
+  <text
+     x="-182.24001"
+     y="-330.25"
+     id="text31" />
+</svg>
