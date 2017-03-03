@@ -149,7 +149,7 @@ header {
 .sapMGlobalBackgroundColor,
 .sapUiGlobalBackgroundColor {
   background-color: none !important;
-  background-image: linear-gradient(#C2EBEB, #C2EBEB) !important;
+  background-image: linear-gradient(#8AD8DA, #8AD8DA) !important;
   background-repeat: no-repeat !important;
 }
 
