@@ -9,7 +9,7 @@
             <Button text="College of Psychiatric and Neurologic Pharmacists" press="toCpnpPage"/>
             <Button text="MISSA" press="toMissaPage"/>
             <Button text="Active Minds" press="toAmPage"/>
-            <Button text= "HashTag #ICARESIUE"></Button>
+            <Button text= "HashTag #ICARESIUE"/>
             <Button text= "Twitter: @ICARESIUE_"/>
             <Button text= "Facebook: facebook.com/ICARESIUE"/>
         </VBox>

@@ -118,7 +118,6 @@ header {
   padding: 10px;
   margin-top: 20%;
   font-family: 'Roboto', sans-serif;
-  font-size: 30px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -135,6 +134,7 @@ header {
 #askQuestion .questBox {
   margin-left: 25%;
   margin-right: 25%;
+  font-size: 30px;
   text-align: center;
   color: #000000;
   background-color: #ffffff;
@@ -149,7 +149,7 @@ header {
 .sapMGlobalBackgroundColor,
 .sapUiGlobalBackgroundColor {
   background-color: none !important;
-  background-image: linear-gradient(#4c3c92, #4c368f) !important;
+  background-image: linear-gradient(#C2EBEB, #C2EBEB) !important;
   background-repeat: no-repeat !important;
 }
 
