@@ -7,6 +7,6 @@ This is a code cleanup/rebase of a suicide prevention web application
 - Reimplement anything that needs reimplementing
 
 # Contributors
-Geoff Gates (icgretethe, Timmythepirate)
+AG (icgretethe, Timmythepirate)
 Erik Johnson (Akwaduk)
 Jake Donovan (jdonova)
